@@ -1,0 +1,45 @@
+@media(max-width:1199px){
+    .home-section .home-img{
+        text-align: center;
+    }
+    .home-section .home-img img{
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+}
+@media(max-width: 991px){
+    .header .navbar-dark .navbar-toggler{
+        padding: 0;
+        height: 28px;
+        width: 35px;
+        border: none;
+        background-color: white;
+    }
+    .header .navbar-dark .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    .header .navbar-dark .navbar-toggler-icon{
+        background-image: none;
+        height: 2px;
+        width: 22px;
+        position: relative;
+    }
+    .header .navbar-dark .navbar-toggler-icon::before{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 85%;
+        left: 0;
+        top: -6px;
+    }
+    .header .navbar-dark .navbar-toggler-icon::after{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 75%;
+        left: 0;
+        top: 6px;
+    }
+}
